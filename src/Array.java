@@ -11,11 +11,12 @@ public class Array {
         System.out.println("input array size: ");
         int[] numbers = new int[Integer.parseInt(READER.readLine())];
 
-    int num = numbers[0];
+   /* int num = numbers[0];
     System.out.println(num);
     System.out.println(numbers[4]);
     numbers[3] = 500;
     System.out.println(numbers[3]);
+    */
 
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("input " + i + " element: ");
@@ -25,7 +26,6 @@ public class Array {
         printArray(numbers);
 
         System.out.println(numbers);
-
     }
 
 
@@ -34,5 +34,4 @@ public class Array {
             System.out.println(i + " element: " + numbers[i]);
         }
     }
-
 }

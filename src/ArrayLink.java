@@ -17,7 +17,6 @@ public class ArrayLink {
 
         String[] newStrings = createAndFill(10);
         printArray(newStrings);
-
     }
 
     public static void fillArray(String[] strings) {
@@ -37,5 +36,4 @@ public class ArrayLink {
         fillArray(strings);
         return strings;
     }
-
 }
